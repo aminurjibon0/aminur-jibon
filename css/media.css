@@ -1,0 +1,269 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.09em;
+    }
+    #about,
+    #interest,
+    #services,
+    #testimonials,
+    #price,
+    #resume,
+    #skills,
+    #portfolio,
+    #contact {
+        padding: 30px 0 40px;
+    }
+    .mass-header {
+        margin-bottom: 80px;
+    }
+    #about .single {
+        margin-bottom: 10px;
+    }
+    .skill-circle {
+        margin: 10px auto;
+    }
+    #footer {
+        padding: 20px 0;
+        margin: 0 !important;;
+    }
+    .portfolio-link {
+        width: 290px;
+    }
+
+    .portfolio-link ul li {
+        font-size: 16px;
+        padding: 7px 14px;
+        margin: 0 !important;
+        cursor: pointer;
+    }
+
+    .client-img {
+        margin-right: 5px !important;
+    }
+
+    .client-img img {
+        max-width: 70%;
+    }
+
+    .quote-mark {
+        display: none;
+    }
+
+    .mass-btn {
+        padding: 7px 20px;
+        color: #21AC6D;
+        border: 1px solid #282828;
+        position: relative;
+        z-index: 99;
+        background-color: #0E0F10;
+    }
+
+    .mass-btn:hover {
+        
+    }
+
+    .mass-btn::before,
+    .mass-btn::after {
+        content: "";
+        position: absolute;
+    }
+
+    .mass-btn::before {
+        width: 20%;
+        height: 100%;
+        background-color: #0E0F10;
+        left: 0;
+        top: 0;
+        z-index: -99;
+        transition: all .5s;
+    }
+
+    .mass-btn:hover::before {
+        width: 100%;
+    }
+
+    .mass-btn::after {
+        width: 37px;
+        height: 2px;
+        background-color: #21AC6D;
+        left: -18px;
+        -webkit-transform: rotate(90deg);
+        -mz-transform: rotate(90deg);
+        transform: rotate(90deg);
+        bottom: 18px;
+    }
+
+    .mass-btn:hover::after {
+        display: none;
+    }
+    .banner-content .btn-contact {
+        color: #fff !important;
+        padding: 8px 30px;
+        ;
+        border-top: 1px solid #b7b7b7;
+        border-bottom: 1px solid #b7b7b7;
+        border-left: 2px solid #fff;
+        border-right: 2px solid #fff;
+        margin-bottom: 20px;
+        position: relative;
+        transition: all .3s;
+        z-index: 99;
+    }
+
+    .btn-left-half,
+    .btn-right-half {
+        transition: all .4s;
+    }
+
+    .banner-content .btn-contact:hover .btn-left-half {
+        color: transparent;
+    }
+
+    .banner-content .btn-contact:hover .btn-right-half {
+        color: transparent;
+    }
+
+    .banner-content .btn-contact:hover {
+        color: #fff !important;
+    }
+
+    .banner-content .btn-contact::before,
+    .banner-content .btn-contact::after {
+        width: 0;
+        height: 0;
+    }
+
+    .banner-content .btn-contact::before {
+        background-color: transparent;
+        left: 0;
+        top: 0;
+    }
+
+    .banner-content .btn-contact:hover::before {
+        width: 0%;
+    }
+
+    .banner-content .btn-contact:after {
+        background-color: #fff;
+        right: 0;
+        top: 0;
+    }
+
+    .banner-content .btn-contact:hover:after {
+        width: 0%;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.17em;
+    }
+    #about,
+    #interest,
+    #services,
+    #testimonials,
+    #price,
+    #resume,
+    #skills,
+    #portfolio,
+    #contact {
+        padding: 40px 0 40px;
+    }
+    .mass-header {
+        margin-bottom: 80px;
+    }
+    #resume .mass-card:first-child {
+        margin-bottom: 40px;
+    }
+    .mass-btn {
+        padding: 7px 20px;
+        color: #21AC6D;
+        border: 1px solid #282828;
+        position: relative;
+        z-index: 99;
+        background-color: #0E0F10;
+    }
+
+    .mass-btn:hover {
+        
+    }
+
+    .mass-btn::before,
+    .mass-btn::after {
+        content: "";
+        position: absolute;
+    }
+
+    .mass-btn::before {
+        width: 20%;
+        height: 100%;
+        background-color: #0E0F10;
+        left: 0;
+        top: 0;
+        z-index: -99;
+        transition: all .5s;
+    }
+
+    .mass-btn:hover::before {
+        width: 100%;
+    }
+
+    .mass-btn::after {
+        width: 37px;
+        height: 2px;
+        background-color: #21AC6D;
+        left: -18px;
+        -webkit-transform: rotate(90deg);
+        -mz-transform: rotate(90deg);
+        transform: rotate(90deg);
+        bottom: 18px;
+    }
+
+    .mass-btn:hover::after {
+        display: none;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.17em;
+    }
+    #about,
+    #interest,
+    #services,
+    #testimonials,
+    #price,
+    #resume,
+    #skills,
+    #portfolio,
+    #contact {
+        padding: 50px 0 50px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
